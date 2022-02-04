@@ -88,13 +88,14 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  max-height: 200px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #6466ce;
-  border-color: #cecc64;
+  color: #171edd;
+  border-color: #452fbe;
 }
 
 .card h2 {

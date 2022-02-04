@@ -1,8 +1,8 @@
-import Link from "next/link";
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { Grid, GridItem } from "@chakra-ui/react";
+import Link from 'next/link';
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import { Grid, GridItem } from '@chakra-ui/react';
 
 export default function Home() {
   return (
@@ -38,10 +38,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Debugging in Chrome &rarr;</h2>
-            <p>
-              Find in-depth information about using the debugger tool in the
-              browser
-            </p>
+            <p>Using the debugger tool in the browser</p>
           </a>
 
           <a
@@ -88,7 +85,7 @@ export default function Home() {
           >
             <h2>Youtube &rarr;</h2>
             <p>
-              The New Way To Debug JavaScript in VS Code - No Extension Required{" "}
+              The New Way To Debug JavaScript in VS Code - No Extension Required{' '}
             </p>
           </a>
           <a
