@@ -3,6 +3,11 @@
 }
 
 .main {
+  background-image: url("../public/code_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -88,8 +93,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #6466ce;
+  border-color: #cecc64;
 }
 
 .card h2 {
