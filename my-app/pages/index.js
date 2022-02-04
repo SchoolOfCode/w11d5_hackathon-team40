@@ -44,27 +44,59 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="https://code.visualstudio.com/docs/nodejs/nodejs-debugging"
+            className={styles.card}
+          >
+            <h2>NodeJS Debugging &rarr;</h2>
+            <p>Learn about Debugging in NodeJS!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://developer.chrome.com/docs/devtools/javascript/"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Devtools and Debugging &rarr;</h2>
+            <p>Devtools</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://developer.chrome.com/docs/devtools/javascript/reference/"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>JavaScript Reference &rarr;</h2>
+            <p>DevTools Reference</p>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=2oFKNL7vYV8"
+            className={styles.card}
+          >
+            <h2>Youtube &rarr;</h2>
+            <p>Getting started with Node.js debugging in VS Code </p>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=H0XScE08hy8"
+            className={styles.card}
+          >
+            <h2>Youtube &rarr;</h2>
+            <p>Debugging JavaScript - Chrome DevTools 101</p>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=tC91t9OvVHA"
+            className={styles.card}
+          >
+            <h2>Youtube &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              The New Way To Debug JavaScript in VS Code - No Extension Required{" "}
             </p>
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=PJeNReqyH88"
+            className={styles.card}
+          >
+            <h2>Youtube &rarr;</h2>
+            <p>How to debug React app in VSCode</p>
           </a>
         </div>
       </main>
