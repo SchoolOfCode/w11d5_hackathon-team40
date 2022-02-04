@@ -3,7 +3,7 @@
 }
 
 .main {
-  background-image: url("../public/code_bg.jpg");
+  background-image: url('../public/code_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -81,7 +81,7 @@
 .card {
   margin: 1rem;
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
